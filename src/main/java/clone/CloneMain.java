@@ -21,7 +21,7 @@ public class CloneMain {
                 int x1 = sc.nextInt();
                 lg.info(" Enter b value : ");
                 int y1 = sc.nextInt();
-                CloneCall obj2 = new CloneCall(x1,y1);
+                new CloneCall(x1,y1);
                 if(obj1.equals(x1,y1))
                 {
                     lg.info("Both Are Equal ...");
