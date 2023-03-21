@@ -3,7 +3,7 @@ import org.example.CloneCall;
 import java.util.Scanner;
 import java.util.logging.Logger;
 public class CloneMain {
-    public static void main(String args[]) throws CloneNotSupportedException {
+    public static void main(String []args) throws CloneNotSupportedException {
             Scanner sc = new Scanner(System.in);
             Logger lg = Logger.getLogger("Clone");
 
